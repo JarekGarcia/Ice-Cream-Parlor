@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice-Cream-Parlor</title>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body-bg">
+
+    <main class="container.fluid">
+        <div class="row">
+            <div class="col-5">
+                <div class="d-flex text-primary bg-white justify-content-around">
+                    <p>Name</p>
+                    <p>Qty</p>
+                    <p>Each</p>
+                    <p>Total</p>
+                </div>
+                <div class="d-flex justify-content-around bg-white">
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p id="cartTotal">0.00</p>
+                </div>
+            </div>
+            <div class="col-7">
+                <h1 class="m-5">Toppings</h1>
+                <div class="d-flex justify-content-around">
+
+                    <button title="" onclick="selectToppings('Sprinkles')"
+                        class="btn btn bg-success text-white">Sprinkles
+                        $2</button>
+
+                    <button title="" onclick="selectToppings('Chocolate Chips')"
+                        class="btn btn bg-success text-white">Chocolate
+                        Chips $3</button>
+
+                    <button title="" onclick="selectToppings('Gummy Worms')" class="btn btn bg-success text-white">Gummy
+                        Worms
+                        $2</button>
+                </div>
+                <h1 class="m-5">Vessels</h1>
+                <div class="d-flex justify-content-around">
+
+                    <button title="" onclick="selectVessels('Waffle Cone')" class="btn btn bg-success text-white">Waffle
+                        Cone
+                        $3</button>
+
+                    <button title="" onclick="selectVessels('Waffle Bowl')" class="btn btn bg-success text-white">Waffle
+                        Bowl
+                        $4</button>
+
+                    <button title="" onclick="selectVessels('Dipped Cone')" class="btn btn bg-success text-white">Dipped
+                        Cone
+                        $5</button>
+                </div>
+                <h1 class="m-5">Ice Cream</h1>
+                <div class="d-flex justify-content-around">
+
+                    <button title="" onclick="selectIceCream('Vanilla')" class="btn btn bg-success text-white">Vanilla
+                        $3</button>
+
+                    <button title="" onclick="selectIceCream('Chocolate')"
+                        class="btn btn bg-success text-white">Chocolate
+                        $4</button>
+
+                    <button title="" onclick="selectIceCream('Strawberry')"
+                        class="btn btn bg-success text-white">Strawberry
+                        $4</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- <div class="col-7">
+                <h1>Toppings</h1>
+                <div class="d-flex">
+                    <p>SPRINKLES $2</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <div class="d-flex text-primary justify-content-around bg-white m-5">
+
+                        <p class="m-5">a</p>
+                        <p class="m-5">b</p>
+                        <p class="m-5">c</p>
+                        <p class="m-5">d</p>
+
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
